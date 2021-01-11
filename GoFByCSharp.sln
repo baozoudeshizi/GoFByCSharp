@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "GoFByCSharp\Interface.csproj", "{E11AE5A3-AC69-41A5-82F1-6B41AC986AAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface", "GoFByCSharp\Interface.csproj", "{E11AE5A3-AC69-41A5-82F1-6B41AC986AAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_DI", "Test\Interface_DI.csproj", "{8D08B39E-84C3-4856-9932-78421627ED74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_DI", "Test\Interface_DI.csproj", "{8D08B39E-84C3-4856-9932-78421627ED74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{171BB122-24D4-49BF-AEE6-AF5C12B431BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8D08B39E-84C3-4856-9932-78421627ED74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D08B39E-84C3-4856-9932-78421627ED74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D08B39E-84C3-4856-9932-78421627ED74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171BB122-24D4-49BF-AEE6-AF5C12B431BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171BB122-24D4-49BF-AEE6-AF5C12B431BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171BB122-24D4-49BF-AEE6-AF5C12B431BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171BB122-24D4-49BF-AEE6-AF5C12B431BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
