@@ -33,7 +33,7 @@ namespace RedmineTest
         public static async Task<int> CalculateSumAsync(int i1,int i2)
         {
             WebClient wc = new WebClient();
-            string s = await wc.DownloadString("http://www.baicu.com");
+            string s = wc.DownloadString("http://www.baicu.com");
             int value = await Task.Run(() => getSum(i1, i2));
             return value;
         }
